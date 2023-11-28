@@ -42,6 +42,11 @@ class Program
 
         var list = new List<String>() { "Leonardo", "Ramos", "Sousa" };
 
+        for (var d = 0; d < list.Count; d++)
+        {
+            Console.WriteLine(list[d]);
+        }
+
         foreach (var item in list)
         {
             Console.WriteLine(item);
